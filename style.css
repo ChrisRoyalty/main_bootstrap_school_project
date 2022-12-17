@@ -1,0 +1,620 @@
+body{
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+.nav-bar{
+    background-color: blue;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-bottom: 2px solid white;
+}
+nav .bi{
+    color: white;
+    margin-left: 30px;
+}
+ul{
+    list-style: none;
+}
+nav .nav-link{
+    padding: 14px;
+}
+
+.dwc-fund{
+    background-color: rgba(255, 0, 0, 0.911);
+}
+.second-nav .nav-link{
+    margin-left: 25px;
+}
+.second-nav .logo-img{
+    padding-left: 40px;
+    width: 10%;
+}
+.home{
+    color: white;
+}
+.ul-dd{
+    margin-top: -30px;
+    font-size: 22px;
+}
+.dd .dropdown-toggle{
+    color: lightgray;
+    font-size: 20px;
+}
+.dd .dropdown-toggle:hover, .home:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: red;
+    color: white;
+}
+.dropdown-menu{
+    background-color: white !important;
+    padding: 20px;
+    font-size: 17px;
+}
+.dropdown-menu a{
+    color: dimgray !important;
+    padding: 10px;
+}
+.bi-search{
+    color: white;
+}
+.carousel-caption{
+display: flex;
+margin-left: -200px;
+padding: 100px;
+
+
+}
+.carousel-item h2{
+    font-weight: bold;
+    font-size: 40px;
+    color: yellow;
+}
+.carousel-item p{
+    color: royalblue;
+}
+.container-4{
+    position: relative;
+    top: 750px;
+    width: 98%;
+    margin: auto;
+    border: none;
+    padding: 0 !important;
+}
+.container-4 ul{
+    list-style: none;
+}
+.container-4 .crd-p{
+    font-size: 20px;
+    font-weight: 100;
+}
+.card-1{
+    background-color: #cf3030;
+    border: none;
+}
+.card-2{
+    background-color: #9B232E;
+    border: none;
+}
+.card-3{
+    background-color: #7A2124;
+    border: none;
+}
+.card{
+    border:none;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+.card-body{
+    align-items: center !important;
+}
+
+.read-more{
+    margin: 0;
+    padding: 0;
+}
+.read-more a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.container-5{
+    position: relative;
+    top: 800px;
+    width: 98%;
+    margin: auto;
+    border: none;
+    padding: 0 !important;
+}
+.mycol1{
+    box-sizing: border-box;
+}
+.image-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 0 !important;
+}
+.image-overlay ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+.youtube{
+  position: relative;
+}
+
+.youtube-icon{
+ font-size: 3rem;
+ cursor: pointer;
+ position: absolute;
+ bottom: 40%;
+ left: 45%;   
+}
+.container-5 hr{
+    border: 2px solid;
+}
+.card-p2{
+    width: 100%;
+}
+.mycol2 ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+}
+.mycol2 ul .li-1{
+    width: 40%;
+    box-sizing: border-box;
+}
+.mycol2 ul .li-2{
+    width: 60%;
+    box-sizing: border-box;
+}
+.mycol2 ul img{
+    padding: 0;
+    margin-right: 0 !important;
+    width: 100%;
+    max-width: 700px;
+}
+.mycol2-div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mycol2-div ul li{
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.mycol3-div ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.container-6{
+    position: relative;
+    top: 850px;
+    width: 100%;
+}
+.container-6 .card-img-overlay{
+    width: 42%;
+    margin-left: 58%;
+    font-size: 22px;
+    padding: 40px;
+    background-image: linear-gradient(to left, navy, navy, transparent);
+    box-sizing: border-box;
+}
+.container-6 .card-img-overlay ul{
+    margin: 0;
+    padding: 0;
+}
+.container-6 .card-img-overlay li{
+    padding-bottom: 30px;
+}
+.container-6 .card-img-overlay h1{
+    font-size: 45px;
+}
+
+.container-7{
+    position: relative;
+    top: 950px;
+    width: 100%;
+}
+.container-8 div{
+    position: relative;
+    top: 1050px;
+    width:50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  #svg-spinner{
+    -webkit-transition-property: -webkit-transform;
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 1.2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    
+    -moz-transition-property: -moz-transform;
+    -moz-animation-name: rotate; 
+    -moz-animation-duration: 1.2s; 
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    
+    transition-property: transform;
+    animation-name: rotate; 
+    animation-duration: 1.2s; 
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; -webkit-animation-name: rotate;
+  }
+  
+  @-webkit-keyframes rotate {
+      from {-webkit-transform: rotate(0deg);}
+      to {-webkit-transform: rotate(360deg);}
+  }
+  
+  @-moz-keyframes rotate {
+      from {-moz-transform: rotate(0deg);}
+      to {-moz-transform: rotate(360deg);}
+  }
+  
+  @keyframes rotate {
+      from {transform: rotate(0deg);}
+      to {transform: rotate(360deg);}
+  }
+  /* spinner positioning */
+    #svg-spinner{
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .container-9{
+    position: relative;
+    top: 1100px;
+    width: 20%;
+    left: 40%;
+    right: 40%;
+}
+.container-9 li{
+    background-color: rgba(173, 216, 230, 0.356);
+    margin: 5px;
+    padding:6px;
+    width: 40px;
+    text-align: center;
+}
+.container-9 .myLi-1{
+    border: 1px solid rgba(0, 0, 0, 0.527);
+}
+.container-9 li:hover{
+    border: 1px solid rgba(0, 0, 0, 0.527)
+}
+.container-10{
+    position: relative;
+    top: 1130px;
+    width: 98%;
+}
+.container-10 hr{
+    border: 2px solid red;
+}
+.container-11{
+    position: relative;
+    top: 1200px;
+}
+
+.container-11 .card .card-img{
+    height: 575px;
+}
+.container-11 .ul1{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+.container-11 .ul2{
+    font-size: 20px;
+}
+.container-11 .ul2 li:hover{
+    color: rgba(0, 0, 0, 0.76);
+}
+.container-11 .ul2 hr{
+    border: 2px solid black;
+    width: 80%;
+}
+.container-11 .card-img-overlay{
+    width: 100%;
+    height: fit-content;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 40px;
+    background-image: linear-gradient(to left, rgba(255, 0, 76, 0.651), rgba(255, 0, 98, 0.534),rgba(255, 0, 64, 0.507));
+    box-sizing: border-box;
+}
+.container-11 .colume2{
+    align-items: center;
+    text-align: center;
+}
+.container-11 .colume2 img{
+    margin: 80px;
+}
+.container-11 .colume2 h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+.container-11 .colume2 p{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+.container-11 .email{
+    margin-top: 10px;
+    padding: 18px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: lightgray;
+    border: none;
+}
+.container-11 .email::placeholder{
+    font-size: 18px;
+}
+.container-11 .button{
+    margin-top: 20px;
+    padding: 18px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+.colume3-btn1{
+    margin-top: 15px;
+    padding: 18px;
+    width: 47%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+.colume3-btn2{
+    margin-top: 16px;
+    margin-left: 5px;
+    padding: 15px;
+    width: 47%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+}
+.container-11 .colume3 p{
+    color: rgba(0, 0, 0, 0.719);
+}
+
+.container-12{
+    position: relative;
+    top: 1300px;
+    color: white !important;
+    font-size: 22px;
+}
+.container-12 img{
+    padding: 0;
+    margin: 0;
+}
+.container-12 .carousel-item{
+    padding: 50px;
+}
+.container-12 .carous-btn{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.container-12 .cont1{
+  background-color: navy;
+  color: white !important;
+}
+.container-12 .cont2{
+    border: none;
+    background-color: red;
+    font-size: 35px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 50px;
+}
+.container-12 p{
+    color: white;
+}
+.container-12 .cont1 a{
+    color: red;
+    text-decoration: none;
+}
+
+.container-13{
+    position: relative;
+    top: 1350px;
+}
+.container-13 li{
+    padding: 10px;
+}
+.container-13 li:hover{
+    background-image:linear-gradient(gray,dimgray,dimgray);
+    height: fit-content;
+}
+.container-13 .row1, .container-13 .row2, .container-13 .row3{
+    color: black;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container-14{
+    position: relative;
+    top: 1400px;
+    background-color: rgba(0, 0, 0, 0.801);
+    color: white;
+    padding: 15px;
+}
+.one1, .one2, .one3{
+    justify-content: space-around;
+}
+.one1 p, .one2 p, .one3 p, .one4 p{
+    color: silver;
+} 
+.one2 p:hover, .one3 p:hover, .one4 p:hover{
+    color: white;
+} 
+.container-14 .one1 p{
+    width: 80%;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.container-14 .vertical-line{
+    border-left: 1px solid gray;
+    height: 350px;
+}
+.container-14 .one2 p, .container-14 .one3 p, .container-14 .one4 p{
+    font-size: 23px;
+}
+.container-14 ul{
+    padding: 0;
+    margin: 0;
+}
+.container-14 .hr{
+    border: 2px solid brown;
+    width: 24rem;
+    margin-bottom: 30px;
+}
+.container-15{
+    position: relative;
+    
+
+}
+.container-15 div, .container-15 ul, .container-15 li, .container-15 p{
+    padding: 10px;
+    margin: 0;
+}
+.container-15 ul{
+    margin-top: auto !important;
+    margin-bottom: auto !important;
+    color: dimgray;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.container-15 i{
+    font-size: 30px;
+}
+.container-15 i:hover{
+    color: white !important;
+    font-size: 35px;
+}
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}
+@media all and (max-width: 600px){
+    .container-6 .card-img-overlay{
+        width: 100%;
+        height: fit-content;
+        margin-left: 0;
+        font-size: 15px;
+        padding: 0;
+        background-image: linear-gradient(to left, navy, navy, transparent);
+        box-sizing: border-box;
+    }
+   
+    .container-6 .card-img-overlay li{
+        padding-bottom: 5px;
+    }
+    .container-6 .card-img-overlay h1{
+        font-size: 20px;
+    }
+}
+
+@media all and (max-width: 1200px){
+    .container-6 .card-img-overlay{
+        width: 94%;
+        height: fit-content;
+        margin-left: 6%;
+        margin-right: 0%;
+        font-size: 20px;
+        padding: 0;
+        background-image: linear-gradient(to left, navy, navy, transparent);
+        box-sizing: border-box;
+    }
+    .container-7{
+        position: relative;
+        top: 1150px;
+        width: 100%;
+    }
+    .container-8 div{
+        position: relative;
+        top: 1180px;
+        width:50%;
+        margin-left: 25%;
+        margin-right: 25%;
+      }
+
+      .container-9{
+        position: relative;
+        top: 1210px;
+        width: 40%;
+        left: 30%;
+        right: 30%;
+    }
+    .container-9 li{
+        background-color: rgba(173, 216, 230, 0.356);
+        margin: 5px;
+        padding:6px;
+        width: 60px;
+        text-align: center;
+    }
+    .container-10{
+        position: relative;
+        top: 1230px;
+        width: 98%;
+    }
+    .container-11{
+        position: relative;
+        top: 1260px;
+    }
+    .one1, .one2, .one3{
+        display: none;
+        justify-content: baseline;
+    }
+    .container-14 .vertical-line{
+        border-left: none;
+        height: 0;
+    }
+    .container-14 ul{
+        width: 80%;
+        padding: 0;
+        margin: 20px;
+    }
+}
